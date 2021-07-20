@@ -31,7 +31,7 @@ fun Application.module() {
     install(CallLogging)
     install(Routing) {
         get("/") {
-            call.respondText("hello, ktor")
+            call.respondText("hello, ktor!")
         }
     }
 }
